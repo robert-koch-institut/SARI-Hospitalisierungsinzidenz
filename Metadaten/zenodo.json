@@ -1,0 +1,106 @@
+{
+  "title": "SARI-Hospitalisierungsinzidenz",
+  "description": "Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.",
+  "creators": [
+    {
+      "name": "Tolksdorf, Kristin",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-8712-6399"
+    },
+    {
+      "name": "Goerlitz, Luise",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0009-0004-3024-6797"
+    },
+    {
+      "name": "Haas, Walter",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0003-3413-1431"
+    },
+    {
+      "name": "Buda, Silke",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0003-3448-3357"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "Schweres akutes respiratorisches Syndrom",
+    "Severe Acute Respiratory Syndrome",
+    "SARI",
+    "Patient Admission",
+    "Patientenaufnahme",
+    "Respiratory Tract Infections",
+    "Atemwegsinfektionen",
+    "Sekundäre Versorgung",
+    "Secondary Care",
+    "Syndromische Surveillance",
+    "Sentinel Surveillance",
+    "Sentinel-Überwachung",
+    "Hospitalisierungsinzidenz",
+    "Hospitalization",
+    "Hospitalisierung",
+    "Incidence",
+    "Inzidenz",
+    "Hospitals",
+    "Krankenhäuser",
+    "ICOSARI",
+    "Pandemic reparedness",
+    "Deutschland",
+    "Germany",
+    "RKI",
+    "Open Data",
+    "Offene Daten"
+  ],
+  "publication_date": "2023-09-28",
+  "version": "2023-09-28",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "subjects": [
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    },
+    {
+      "term": "Epidemiologie",
+      "identifier": "info:ddc/22/de//614.4"
+    },
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    },
+    {
+      "term": "Epidemiology",
+      "identifier": "info:ddc/22/eng//614.4"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Readme.md",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/[Dokumentation]_SARI-Hospitalisierungsinzidenz.pdf",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDescribedBy",
+      "identifier": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
+      "resource_type": "other"
+    }
+  ]
+}

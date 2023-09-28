@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+type: dataset
+title: SARI-Hospitalisierungsinzidenz
+abstract: >-
+  Zur Einschätzung der Krankheitslast schwerer symptomatischer
+  Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der
+  syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit
+  einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur
+  Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und
+  valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext
+  zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die
+  Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von
+  Präventionsstrategien.
+date-released: '2023-09-28'
+keywords:
+  - Schweres akutes respiratorisches Syndrom
+  - Severe Acute Respiratory Syndrome
+  - SARI
+  - Patient Admission
+  - Patientenaufnahme
+  - Respiratory Tract Infections
+  - Atemwegsinfektionen
+  - Sekundäre Versorgung
+  - Secondary Care
+  - Syndromische Surveillance
+  - Sentinel Surveillance
+  - Sentinel-Überwachung
+  - Hospitalisierungsinzidenz
+  - Hospitalization
+  - Hospitalisierung
+  - Incidence
+  - Inzidenz
+  - Hospitals
+  - Krankenhäuser
+  - ICOSARI
+  - Pandemic reparedness
+  - Deutschland
+  - Germany
+  - RKI
+  - Open Data
+  - Offene Daten
+  - Gesundheitsberichterstattung
+  - Epidemiologie
+  - Public health surveillance
+  - Epidemiology
+message: Cite me!
+url: https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/
+license: CC-BY-4.0
+doi: 10.5281/zenodo.8382331
+authors:
+  - family-names: Tolksdorf
+    given-names: Kristin
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0002-8712-6399
+  - family-names: Goerlitz
+    given-names: Luise
+    affiliation: Robert Koch-Institut
+    orcid: 0009-0004-3024-6797
+  - family-names: Haas
+    given-names: Walter
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0003-3413-1431
+  - family-names: Buda
+    given-names: Silke
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0003-3448-3357
