@@ -52,8 +52,8 @@
     "Open Data",
     "Offene Daten"
   ],
-  "publication_date": "2023-09-28",
-  "version": "2023-09-28",
+  "publication_date": "2023-10-05",
+  "version": "2023-10-05",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -79,6 +79,14 @@
     {
       "term": "Epidemiology",
       "identifier": "info:ddc/22/eng//614.4"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2023-10-05T09:06:06+02:00",
+      "end": "2023-10-05T09:06:06+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
     }
   ],
   "related_identifiers": [
