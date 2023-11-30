@@ -1,186 +1,179 @@
 {
   "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
     "collection": [
       "Robert Koch-Institut"
     ],
-    "ids": [
-      {
-        "identifier": "Currently/no/DOI/available",
-        "type": "DOI",
-        "resource_type_general": "Dataset",
-        "relation_type": "A references B"
-      },
-      {
-        "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz",
-        "relation_type": "A references B",
-        "type": "URL",
-        "resource_type_general": "Dataset"
-      }
-    ],
-    "provenance": {
-      "data_source": "Automatically uploaded: Other"
-    },
-    "resource_classification": {
-      "resource_type": "Dataset",
-      "resource_type_general": "Dataset"
-    },
-    "resource_description_english": {
-      "language": "EN (English)",
-      "text": "no english description available"
-    },
-    "resource_descriptions_non_english": [
+    "descriptions": [
       {
         "language": "DE (German)",
         "text": "Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien."
       }
     ],
-    "resource_keywords": [
+    "titles": [
       {
-        "resource_keywords_label": "Schweres akutes respiratorisches Syndrom",
-        "resource_keywords_label_code": "D045169"
-      },
-      {
-        "resource_keywords_label": "Severe Acute Respiratory Syndrome",
-        "resource_keywords_label_code": "D045169"
-      },
-      {
-        "resource_keywords_label": "SARI"
-      },
-      {
-        "resource_keywords_label": "Patient Admission",
-        "resource_keywords_label_code": "D010343"
-      },
-      {
-        "resource_keywords_label": "Patientenaufnahme",
-        "resource_keywords_label_code": "D010343"
-      },
-      {
-        "resource_keywords_label": "Respiratory Tract Infections",
-        "resource_keywords_label_code": "D012141"
-      },
-      {
-        "resource_keywords_label": "Atemwegsinfektionen",
-        "resource_keywords_label_code": "D012141"
-      },
-      {
-        "resource_keywords_label": "Sekundäre Versorgung",
-        "resource_keywords_label_code": "D063127"
-      },
-      {
-        "resource_keywords_label": "Secondary Care",
-        "resource_keywords_label_code": "D063127"
-      },
-      {
-        "resource_keywords_label": "Syndromische Surveillance"
-      },
-      {
-        "resource_keywords_label": "Sentinel Surveillance",
-        "resource_keywords_label_code": "D018571"
-      },
-      {
-        "resource_keywords_label": "Sentinel-Überwachung",
-        "resource_keywords_label_code": "D018571"
-      },
-      {
-        "resource_keywords_label": "Hospitalisierungsinzidenz"
-      },
-      {
-        "resource_keywords_label": "Hospitalization",
-        "resource_keywords_label_code": "D006760"
-      },
-      {
-        "resource_keywords_label": "Hospitalisierung",
-        "resource_keywords_label_code": "D006760"
-      },
-      {
-        "resource_keywords_label": "Incidence",
-        "resource_keywords_label_code": "D015994"
-      },
-      {
-        "resource_keywords_label": "Inzidenz",
-        "resource_keywords_label_code": "D015994"
-      },
-      {
-        "resource_keywords_label": "Hospitals",
-        "resource_keywords_label_code": "D006761"
-      },
-      {
-        "resource_keywords_label": "Krankenhäuser",
-        "resource_keywords_label_code": "D006761"
-      },
-      {
-        "resource_keywords_label": "ICOSARI"
-      },
-      {
-        "resource_keywords_label": "Pandemic reparedness"
-      },
-      {
-        "resource_keywords_label": "Deutschland"
-      },
-      {
-        "resource_keywords_label": "Germany"
-      },
-      {
-        "resource_keywords_label": "RKI"
-      },
-      {
-        "resource_keywords_label": "Open Data"
-      },
-      {
-        "resource_keywords_label": "Offene Daten"
-      },
-      {
-        "resource_keywords_label": "Gesundheitsberichterstattung",
-        "resource_keywords_label_code": "info:ddc/22/de//614.42"
-      },
-      {
-        "resource_keywords_label": "Epidemiologie",
-        "resource_keywords_label_code": "info:ddc/22/de//614.4"
-      },
-      {
-        "resource_keywords_label": "Public health surveillance",
-        "resource_keywords_label_code": "info:ddc/22/eng//614.42"
-      },
-      {
-        "resource_keywords_label": "Epidemiology",
-        "resource_keywords_label_code": "info:ddc/22/eng//614.4"
+        "language": "DE (German)",
+        "text": "SARI-Hospitalisierungsinzidenz"
       }
     ],
-    "resource_languages": [
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.10224365",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "Schweres akutes respiratorisches Syndrom",
+        "code": "D045169"
+      },
+      {
+        "label": "Severe Acute Respiratory Syndrome",
+        "code": "D045169"
+      },
+      {
+        "label": "SARI"
+      },
+      {
+        "label": "Patient Admission",
+        "code": "D010343"
+      },
+      {
+        "label": "Patientenaufnahme",
+        "code": "D010343"
+      },
+      {
+        "label": "Respiratory Tract Infections",
+        "code": "D012141"
+      },
+      {
+        "label": "Atemwegsinfektionen",
+        "code": "D012141"
+      },
+      {
+        "label": "Sekundäre Versorgung",
+        "code": "D063127"
+      },
+      {
+        "label": "Secondary Care",
+        "code": "D063127"
+      },
+      {
+        "label": "Syndromische Surveillance"
+      },
+      {
+        "label": "Sentinel Surveillance",
+        "code": "D018571"
+      },
+      {
+        "label": "Sentinel-Überwachung",
+        "code": "D018571"
+      },
+      {
+        "label": "Hospitalisierungsinzidenz"
+      },
+      {
+        "label": "Hospitalization",
+        "code": "D006760"
+      },
+      {
+        "label": "Hospitalisierung",
+        "code": "D006760"
+      },
+      {
+        "label": "Incidence",
+        "code": "D015994"
+      },
+      {
+        "label": "Inzidenz",
+        "code": "D015994"
+      },
+      {
+        "label": "Hospitals",
+        "code": "D006761"
+      },
+      {
+        "label": "Krankenhäuser",
+        "code": "D006761"
+      },
+      {
+        "label": "ICOSARI"
+      },
+      {
+        "label": "Pandemic reparedness"
+      },
+      {
+        "label": "Deutschland"
+      },
+      {
+        "label": "Germany"
+      },
+      {
+        "label": "RKI"
+      },
+      {
+        "label": "Open Data"
+      },
+      {
+        "label": "Offene Daten"
+      },
+      {
+        "label": "Gesundheitsberichterstattung",
+        "code": "info:ddc/22/de//614.42"
+      },
+      {
+        "label": "Epidemiologie",
+        "code": "info:ddc/22/de//614.4"
+      },
+      {
+        "label": "Public health surveillance",
+        "code": "info:ddc/22/eng//614.42"
+      },
+      {
+        "label": "Epidemiology",
+        "code": "info:ddc/22/eng//614.4"
+      }
+    ],
+    "languages": [
       "DE (German)"
     ],
-    "resource_non_study_details": {
-      "resource_use_rights": {
-        "resource_use_rights_confirmations": {
-          "resource_use_rights_confirmation_authority": true,
-          "resource_use_rights_confirmation_irrevocability": true,
-          "resource_use_rights_confirmation_terms": true,
-          "resource_use_rights_support_by_licensing": true
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
         },
-        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "resource_version": "2023-11-23"
+      "version": "2023-11-30"
     },
-    "resource_titles": [
+    "webpage": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
+    "contributors": [
       {
-        "text": "SARI-Hospitalisierungsinzidenz",
-        "language": "DE (German)"
-      }
-    ],
-    "resource_web_page": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
-    "roles": [
-      {
-        "role_affiliations": [
+        "affiliations": [
           {
-            "role_affiliation_name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut"
           }
         ],
-        "role_name_type": "Personal",
-        "role_name_personal": {
-          "role_name_personal_type": "Creator/Author",
-          "role_name_personal_given_name": "Kristin",
-          "role_name_personal_family_name": "Tolksdorf",
-          "role_name_identifiers": [
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Kristin",
+          "familyName": "Tolksdorf",
+          "identifiers": [
             {
               "identifier": "0000-0002-8712-6399",
               "scheme": "ORCID"
@@ -189,17 +182,17 @@
         }
       },
       {
-        "role_affiliations": [
+        "affiliations": [
           {
-            "role_affiliation_name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut"
           }
         ],
-        "role_name_type": "Personal",
-        "role_name_personal": {
-          "role_name_personal_type": "Creator/Author",
-          "role_name_personal_given_name": "Luise",
-          "role_name_personal_family_name": "Goerlitz",
-          "role_name_identifiers": [
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Luise",
+          "familyName": "Goerlitz",
+          "identifiers": [
             {
               "identifier": "0009-0004-3024-6797",
               "scheme": "ORCID"
@@ -208,17 +201,17 @@
         }
       },
       {
-        "role_affiliations": [
+        "affiliations": [
           {
-            "role_affiliation_name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut"
           }
         ],
-        "role_name_type": "Personal",
-        "role_name_personal": {
-          "role_name_personal_type": "Creator/Author",
-          "role_name_personal_given_name": "Walter",
-          "role_name_personal_family_name": "Haas",
-          "role_name_identifiers": [
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Walter",
+          "familyName": "Haas",
+          "identifiers": [
             {
               "identifier": "0000-0003-3413-1431",
               "scheme": "ORCID"
@@ -227,17 +220,17 @@
         }
       },
       {
-        "role_affiliations": [
+        "affiliations": [
           {
-            "role_affiliation_name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut"
           }
         ],
-        "role_name_type": "Personal",
-        "role_name_personal": {
-          "role_name_personal_type": "Creator/Author",
-          "role_name_personal_given_name": "Silke",
-          "role_name_personal_family_name": "Buda",
-          "role_name_identifiers": [
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Silke",
+          "familyName": "Buda",
+          "identifiers": [
             {
               "identifier": "0000-0003-3448-3357",
               "scheme": "ORCID"

@@ -1,6 +1,6 @@
 {
   "title": "SARI-Hospitalisierungsinzidenz",
-  "description": "Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.",
+  "description": "<p>Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.</p>\n",
   "creators": [
     {
       "name": "Tolksdorf, Kristin",
@@ -52,8 +52,8 @@
     "Open Data",
     "Offene Daten"
   ],
-  "publication_date": "2023-11-23",
-  "version": "2023-11-23",
+  "publication_date": "2023-11-30",
+  "version": "2023-11-30",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -83,8 +83,8 @@
   ],
   "dates": [
     {
-      "start": "2023-11-23T14:18:09+01:00",
-      "end": "2023-11-23T14:18:09+01:00",
+      "start": "2023-11-30T09:08:13+01:00",
+      "end": "2023-11-30T09:08:13+01:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
