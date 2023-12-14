@@ -11,7 +11,7 @@ Nordufer 20
 ---  
 
 **Zitieren**   
-Tolksdorf K, Goerlitz L, Haas W und Buda S (2023): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:[10.5281/zenodo.10279756](https://doi.org/10.5281/zenodo.10279756)  
+Tolksdorf K, Goerlitz L, Haas W und Buda S (2023): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:[10.5281/zenodo.10374212](https://doi.org/10.5281/zenodo.10374212)  
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
