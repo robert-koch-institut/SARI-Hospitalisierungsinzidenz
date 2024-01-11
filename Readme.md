@@ -11,7 +11,7 @@ Nordufer 20
 ---  
 
 **Zitieren**   
-Tolksdorf K, Goerlitz L, Haas W und Buda S (2023): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:[10.5281/zenodo.10489190](https://doi.org/10.5281/zenodo.10489190)  
+Tolksdorf K, Goerlitz L, Haas W und Buda S (2024): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:[10.5281/zenodo.10489190](https://doi.org/10.5281/zenodo.10489190)  
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
@@ -86,7 +86,7 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 | Saison   | Text |`jjjj/jj`|Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39) |
 | Kalenderwoche | Datum |`jjjj-Www`|Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format |
 | Altersgruppe| Text | `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahren: `00+`: Gesamt über alle Altersgruppen |
-| SARI_Hospitalisierungsinzidenz | Ganze Zahl | `≥0` | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen |
+| SARI_Hospitalisierungsinzidenz | Fließkommazahl | `≥0` | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen |
 
 #### Formatierung  
 
