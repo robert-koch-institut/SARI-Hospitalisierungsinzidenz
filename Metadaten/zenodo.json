@@ -52,8 +52,8 @@
     "Open Data",
     "Offene Daten"
   ],
-  "publication_date": "2024-02-15",
-  "version": "2024-02-15",
+  "publication_date": "2024-02-22",
+  "version": "2024-02-22",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -83,8 +83,8 @@
   ],
   "dates": [
     {
-      "start": "2024-02-15T09:08:22+01:00",
-      "end": "2024-02-15T09:08:22+01:00",
+      "start": "2024-02-22T09:08:12+01:00",
+      "end": "2024-02-22T09:08:12+01:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
