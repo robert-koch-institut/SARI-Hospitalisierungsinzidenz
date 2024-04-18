@@ -13,6 +13,11 @@
       "orcid": "0009-0004-3024-6797"
     },
     {
+      "name": "Gvaladze, Tamar",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0009-0007-4442-9633"
+    },
+    {
       "name": "Haas, Walter",
       "affiliation": "Robert Koch-Institut",
       "orcid": "0000-0003-3413-1431"
@@ -52,8 +57,8 @@
     "Open Data",
     "Offene Daten"
   ],
-  "publication_date": "2024-04-11",
-  "version": "2024-04-11",
+  "publication_date": "2024-04-18",
+  "version": "2024-04-18",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -83,8 +88,8 @@
   ],
   "dates": [
     {
-      "start": "2024-04-11T09:08:28+02:00",
-      "end": "2024-04-11T09:08:28+02:00",
+      "start": "2024-04-18T09:08:38+02:00",
+      "end": "2024-04-18T09:08:38+02:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
