@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name": "Saison",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Kalenderwoche",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "SARI_Hospitalisierungsinzidenz",
+      "type": "number",
+      "constraints": {}
+    }
+  ]
+}

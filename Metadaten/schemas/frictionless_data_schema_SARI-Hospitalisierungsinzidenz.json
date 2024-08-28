@@ -1,0 +1,44 @@
+{
+  "fields": [
+    {
+      "name": "Saison",
+      "type": "string",
+      "description": "Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39)",
+      "constraints": {
+        "pattern": "[0-9]{4}/[0-9]{2}"
+      }
+    },
+    {
+      "name": "Kalenderwoche",
+      "type": "string",
+      "description": "Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format",
+      "constraints": {
+        "pattern": "[0-9]{4}-W(0[1-9]{1}|[1-4]{1}[0-9]{1}|5[0-3]{1})"
+      }
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "description": "Altersgruppen in Jahren: `00+`: Gesamt über alle Altersgruppen",
+      "constraints": {
+        "enum": [
+          "00+",
+          "0-4",
+          "5-14",
+          "15-34",
+          "35-59",
+          "60-79",
+          "80+"
+        ]
+      }
+    },
+    {
+      "name": "SARI_Hospitalisierungsinzidenz",
+      "type": "number",
+      "description": "Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen",
+      "constraints": {
+        "minimum": 0
+      }
+    }
+  ]
+}
