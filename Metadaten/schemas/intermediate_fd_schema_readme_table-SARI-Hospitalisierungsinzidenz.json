@@ -2,13 +2,15 @@
   "fields": [
     {
       "name": "Saison",
-      "type": "string",
-      "description": "Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39)"
+      "type": "date",
+      "description": "Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39)",
+      "format": "%Y/%y"
     },
     {
       "name": "Kalenderwoche",
       "type": "date",
-      "description": "Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format"
+      "description": "Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format",
+      "format": "%Y-W%W"
     },
     {
       "name": "Altersgruppe",

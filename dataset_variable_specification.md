@@ -1,0 +1,10 @@
+### Variable specification for data file `frictionless_data_schema_SARI-Hospitalisierungsinzidenz`
+
+| Variable                       | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                         |
+|:-------------------------------|:-------|:--------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
+| Saison                         | date   | Format: `%Y/%y`                                               | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39) |
+| Kalenderwoche                  | date   | Format: `%Y-W%W`                                              | Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                           |
+| Altersgruppe                   | string | Werte: `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahren: `00+`: Gesamt über alle Altersgruppen                                                       |
+| SARI_Hospitalisierungsinzidenz | number | Minimum: 0                                                    | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen                                              |
+
+

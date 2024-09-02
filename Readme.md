@@ -86,7 +86,7 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 
 | Variable | Typ | Ausprägung | Beschreibung |
 | -------- | --- | ---------- | ------------ |
-| Saison   | Text |`jjjj/jj`|Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39) |
+| Saison   | Datum |`jjjj/jj`|Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39) |
 | Kalenderwoche | Datum |`jjjj-Www`|Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format |
 | Altersgruppe| Text | `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahren: `00+`: Gesamt über alle Altersgruppen |
 | SARI_Hospitalisierungsinzidenz | Fließkommazahl | `≥0` | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen |
