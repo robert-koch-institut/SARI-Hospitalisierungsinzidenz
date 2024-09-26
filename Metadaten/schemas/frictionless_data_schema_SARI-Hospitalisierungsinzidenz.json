@@ -3,19 +3,19 @@
     {
       "name": "Saison",
       "type": "date",
-      "description": "Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39)",
+      "description": "Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)",
       "format": "%Y/%y"
     },
     {
       "name": "Kalenderwoche",
       "type": "date",
-      "description": "Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format",
+      "description": "Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format",
       "format": "%Y-W%W"
     },
     {
       "name": "Altersgruppe",
       "type": "string",
-      "description": "Altersgruppen in Jahren: `00+`: Gesamt über alle Altersgruppen",
+      "description": "Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren",
       "constraints": {
         "enum": [
           "00+",
@@ -26,12 +26,74 @@
           "60-79",
           "80+"
         ]
-      }
+      },
+	  "valueDefinitions": [
+        {
+          "value": "00+",
+          "definition": "Personen jeden Alters"
+        },
+        {
+          "value": "0-4",
+          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 0 und 5 Jahre alt sind"
+        },
+        {
+          "value": "5-14",
+          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 5 und 15 Jahre alt sind"
+        },
+        {
+          "value": "15-34",
+          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 15 und 35 Jahre alt sind"
+        },
+        {
+          "value": "35-59",
+          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 35 und 60 Jahre alt sind"
+        },
+        {
+          "value": "60-79",
+          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 60 und 80 Jahre alt sind"
+        },
+        {
+          "value": "80+",
+          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung 80 Jahre oder älter sind"
+        }
+      ]
     },
     {
-      "name": "SARI_Hospitalisierungsinzidenz",
+      "name": "SARI",
+      "type": "string",
+      "description": "Erkrankung auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Umfasst alle erhobenen SARI (COVID-19, Influenza, RSV)",
+      "constraints": {
+        "enum": [
+          "Gesamt",
+          "COVID-19",
+          "Influenza",
+          "RSV"
+        ]
+      },
+	  "valueDefinitions": [
+        {
+          "value": "Gesamt",
+          "definition": "Umfasst alle erhobenen SARI (einschließlich COVID-19, Influenza, RSV und andere)"
+        },
+        {
+          "value": "COVID-19",
+          "definition": "ICD-10-Diagnosecode für eine COVID-19-Erkrankung (U07.1) in einer der Nebendiagnosen"
+        },
+        {
+          "value": "Influenza",
+          "definition": "ICD-10-Diagnosecode für eine Influenza-Erkrankung (J10) in der Haupt- oder einer der Nebendiagnosen"
+        },
+        {
+          "value": "RSV",
+          "definition": "ICD-10-Diagnosecode für eine RSV-Erkrankung (J12.1, J20.5, J21.0) in der Haupt- oder einer der Nebendiagnosen"
+        }
+		
+      ]
+    },
+    {
+      "name": "Hospitalisierungsinzidenz",
       "type": "number",
-      "description": "Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen",
+      "description": "Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner",
       "constraints": {
         "minimum": 0
       }

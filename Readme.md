@@ -14,12 +14,13 @@ Nordufer 20
 ---  
 	
 **Zitieren**   
-Tolksdorf K, Goerlitz L, Gvaladze T, Haas W und Buda S (**2024**): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:[10.5281/zenodo.13268384](https://doi.org/10.5281/zenodo.13268384)  
+Tolksdorf K, Goerlitz L, Gvaladze T, Haas W und Buda S (**2024**): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. [DOI: 10.5281/zenodo.13751955](https://doi.org/10.5281/zenodo.13751955)  
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
 
-Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.  
+Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet.  
+Zudem werden SARI-Fälle pro 100.000 Einwohner, bei denen zusätzlich zur SARI eine Erkrankung mit COVID-19, mit Influenza oder mit RSV diagnostiziert wurde, separat dargestellt. Zeitnahe und valide Daten über die Häufigkeit von SARI in der Bevölkerung sowie zum Auftreten von COVID-19-, Influenza- und RSV-Erkrankungen unter SARI-Patientinnen und -Patienten im zeitlichen Verlauf sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.  
 
 ### Administrative und organisatorische Angaben  
 
@@ -33,39 +34,53 @@ Die ganzjährige syndromische Surveillance schwerer akuter respiratorischer Infe
 
 In Deutschland erfolgt die syndromische Surveillance schwerer akuter respiratorischer Erkrankungen im stationären Bereich durch die syndromische Krankenhaussurveillance ICOSARI (ICD-10-Code basierte Krankenhaussurveillance schwerer akuter respiratorischer Infektionen) RKI. Diese basiert auf fallbasierten anonymisierten Datensätzen zu ärztlichen Diagnosen aus Sentinel-Krankenhäusern.  
 
-Die Ergebnisse tragen zum Verständnis der Epidemiologie der Influenza, COVID-19, RSV-Infektionen und von weiteren akuten respiratorischen Erkrankungen sowie zur Entwicklung von Präventionsstrategien bei. Eine kontinuierliche SARI-Surveillance im stationären Bereich wird vom [ECDC](https://www.ecdc.europa.eu/) und der [WHO](https://www.who.int) empfohlen.   
+Die Ergebnisse tragen zum Verständnis der Epidemiologie der Influenza, COVID-19, RSV-Infektionen und von weiteren akuten respiratorischen Erkrankungen sowie zur Entwicklung von Präventionsstrategien bei. Eine kontinuierliche SARI-Surveillance im stationären Bereich wird vom [ECDC]( https://www.ecdc.europa.eu/en/publications-data/operational-considerations-respiratory-virus-surveillance-europe) und der [WHO]( https://www.who.int/initiatives/mosaic-respiratory-surveillance-framework) empfohlen.   
 
 ### Datenerhebung  
 
-Derzeit werden Daten aus aktuell ca. 70 Sentinelkliniken mit einer bundesweiten Abdeckung von 5-6 % aller in Deutschland hospitalisierten Patientinnen und Patienten erhoben. In den teilnehmenden Krankenhäusern werden fallbezogene Daten über aufgenommene Patientinnen und Patienten routinemäßig erfasst. Die Daten aus diesen Krankenhäusern werden zentral im Datenzentrum im Rahmen das Qualitätsmanagements validiert. Von dort aus werden validierte, anonymisierte, fallbezogene Datensätze von neu im Krankenhaus aufgenommenen Patientinnen und Patienten an das RKI übermittelt (Establishing an ICD-10 code based SARI-surveillance in Germany – description of the system and first results from five recent influenza seasons).  
+Derzeit werden Daten aus aktuell ca. 70 Sentinelkliniken mit einer bundesweiten Abdeckung von 5-6 % aller in Deutschland hospitalisierten Patientinnen und Patienten erhoben. In den teilnehmenden Krankenhäusern werden fallbezogene Daten über aufgenommene Patientinnen und Patienten routinemäßig erfasst. Die Daten aus diesen Krankenhäusern werden zentral im Datenzentrum im Rahmen das Qualitätsmanagements validiert. Von dort aus werden validierte, anonymisierte, fallbezogene Datensätze von neu im Krankenhaus aufgenommenen Patientinnen und Patienten an das RKI übermittelt.
+ 
+> Buda, S., Tolksdorf, K., Schuler, E. et al. Establishing an ICD-10 code based SARI-surveillance in Germany – description of the system and first results from five recent influenza seasons. BMC Public Health 17, 612 (2017).[DOI: 10.1186/s12889-017-4515-1](https://doi.org/10.1186/s12889-017-4515-1)
 
-Der hier zur Verfügung gestellte Datensatz enthält die Werte der wöchentlichen Hospitalisierungsinzidenz von Patientinnen und Patienten in sechs Altersgruppen mit den ICD-10-Diagnosen J09 bis J22. Das sind Diagnose-Codes für akute Infektionen der unteren Atemwege.  
+Der hier zur Verfügung gestellte Datensatz enthält die Werte der wöchentlichen Hospitalisierungsinzidenz von Patientinnen und Patienten in sechs Altersgruppen mit den ICD-10-Diagnosen J09 bis J22. Das sind Diagnose-Codes für akute Infektionen der unteren Atemwege. Zusätzlich sind SARI-Fälle, die einen zusätzlichen krankheitsspezifischen Diagnosecode für eine COVID-19, Influenza- oder RSV-Erkrankung erhalten haben, aufgeführt.
 
 ### Datenauswertung und -aufbereitung  
 
 Zur Einschätzung der Krankheitslast schwerer symptomatischer Erkrankungen im stationären Bereich wird mithilfe der Daten aus dem ICOSARI-Sentinel wöchentlich die Inzidenz der Fälle berechnet, die in ein Krankenhaus aufgenommen wurden und dort die Diagnose einer schweren akuten Atemwegserkrankung erhalten haben (SARI-Hospitalisierungsinzidenz).  
 
-Hierbei werden Patientinnen und Patienten pro Kalenderwoche der Krankenhausaufnahme erfasst, die einen ICD-10-Code für SARI (ICD-10-Codes J09 bis J22) in der [DRG](https://www.gbe-bund.de/glossar/Diagnosis_Related_Groups_DRG.html)-Hauptdiagnose erhalten.  
+Hierbei werden Patientinnen und Patienten pro Kalenderwoche der Krankenhausaufnahme erfasst, die einen ICD-10-Code für SARI ([ICD-10-Codes J09 bis J22](https://klassifikationen.bfarm.de/icd-10-gm/kode-suche/htmlgm2024/chapter-x.htm)) in der Hauptdiagnose erhalten.  
 
-Die Berechnung der wöchentlichen SARI-Hospitalisierungsinzidenz erfolgte wie von [Tolksdorf et al](https://doi.org/10.1101/2022.02.11.22269594) beschrieben. Detaillierte Informationen zu Datenerhebung und Auswertung lassen sich folgenden Publikationen entnehmen:
+Zudem werden drei Untergruppen der SARI-Hospitalisierungsinzidenz (Gesamt) dargestellt: 
+- Inzidenz von SARI-Fällen mit einem ICD-10-Diagnosecode für eine **COVID-19-Erkrankung** (U07.1) in einer der Nebendiagnosen (COVID-SARI)
+- Inzidenz von SARI-Fällen mit einem ICD-10-Diagnosecode für eine **Influenza-Erkrankung** (J10) in der Haupt- oder einer der Nebendiagnosen (Influenza-SARI)
+- Inzidenz von SARI-Fällen mit einem ICD-10-Diagnosecode für eine **RSV-Erkrankung** (J12.1, J20.5, J21.0) in der Haupt- oder einer der Nebendiagnosen (RSV-SARI)
 
-> Tolksdorf K, Haas W, Schuler E, Wieler LH, Schilling J, Hamouda O, Diercke M, Buda S (2022): Syndromic surveillance for severe acute respiratory infections (SARI) enables valid estimation of COVID-19 hospitalization incidence and reveals underreporting of hospitalizations during pandemic peaks of three COVID-19 waves in Germany, 2020-2021 DOI:[ 10.1101/2022.02.11.22269594](https://doi.org/10.1101/2022.02.11.22269594)  
 
-> Tolksdorf K, Buda S, Schuler E, Wieler LH, Haas W (2020): Eine höhere Letalität und lange Beatmungsdauer unterscheiden COVID-19 von schwer verlaufenden Atemwegsinfektionen in Grippewellen. Epid Bull 2020;41:3–10 | DOI: [10.25646/7111](http://dx.doi.org/10.25646/7111)  
+Die Berechnung der wöchentlichen SARI-Hospitalisierungsinzidenz erfolgte wie von [Tolksdorf et al (2022)](https://doi.org/10.1101/2022.02.11.22269594) beschrieben. Detaillierte Informationen zu Datenerhebung und Auswertung lassen sich folgenden Publikationen entnehmen:
 
-> Goerlitz L, Tolksdorf K, Buchholz U, Prahm K, Preuß U, An der Heiden M, Wolff T, Dürrwald R, Nitsche A, Michel J, Haas W, Buda S. Überwachung von COVID-19 durch Erweiterung der etablierten Surveillance für Atemwegsinfektionen [Monitoring of COVID-19 by extending existing surveillance for acute respiratory infections]. Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz. 2021 Apr;64(4):395-402. German. DOI: [10.1007/s00103-021-03303-2](https://doi.org/10.1007/s00103-021-03303-2)  
+> Cai W, Köndgen S, Tolksdorf K, Dürrwald R, Schuler E, Biere B, Schweiger B, Goerlitz L, Haas W, Wolff T, Buda S, Reiche J. Atypical age distribution and high disease severity in children with RSV infections during two irregular epidemic seasons throughout the COVID-19 pandemic, Germany, 2021 to 2023. Euro Surveill. 2024 Mar;29(13):2300465. [DOI: 10.2807/1560-7917.ES.2024.29.13.2300465](https://doi.org/10.2807/1560-7917.ES.2024.29.13.2300465)
 
-> Buda, S., Tolksdorf, K., Schuler, E., Kuhlen, R., Haas, W. (2017): Establishing an ICD-10 code based SARI-surveillance in Germany – description of the system and first results from five recent influenza seasons. *BMC Public Health* 17, 612 (2017). DOI: [10.1186/s12889-017-4515-1](https://doi.org/10.1186/s12889-017-4515-1)  
+> Buchholz U, Lehfeld AS, Tolksdorf K, Cai W, Reiche J, Biere B, Dürrwald R, Buda S. Respiratory infections in children and adolescents in Germany during the COVID-19 pandemic. J Health Monit. 2023 Jun 14;8(2):20-38. [DOI: 10.25646/11437](https://doi.org/10.25646/11437)
+
+> Tolksdorf K, Haas W, Schuler E, Wieler LH, Schilling J, Hamouda O, Diercke M, Buda S (2022): Syndromic surveillance for severe acute respiratory infections (SARI) enables valid estimation of COVID-19 hospitalization incidence and reveals underreporting of hospitalizations during pandemic peaks of three COVID-19 waves in Germany, 2020-2021 [DOI: 10.1101/2022.02.11.22269594](https://doi.org/10.1101/2022.02.11.22269594)  
+
+> Tolksdorf K, Buda S, Schuler E, Wieler LH, Haas W (2020): Eine höhere Letalität und lange Beatmungsdauer unterscheiden COVID-19 von schwer verlaufenden Atemwegsinfektionen in Grippewellen. Epid Bull 2020;41:3–10 | [DOI: 10.25646/7111](http://dx.doi.org/10.25646/7111)  
+
+> Cai W, Tolksdorf K, Hirve S, Schuler E, Zhang W, Haas W, Buda S. Evaluation of using ICD-10 code data for respiratory syncytial virus surveillance. Influenza Other Respi Viruses.2020;14:630-637. [DOI: 10.1111/irv.12665](https://doi.org/10.1111/irv.12665)
+
+> Goerlitz L, Tolksdorf K, Buchholz U, Prahm K, Preuß U, An der Heiden M, Wolff T, Dürrwald R, Nitsche A, Michel J, Haas W, Buda S. Überwachung von COVID-19 durch Erweiterung der etablierten Surveillance für Atemwegsinfektionen [Monitoring of COVID-19 by extending existing surveillance for acute respiratory infections]. Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz. 2021 Apr;64(4):395-402. German. [DOI: 10.1007/s00103-021-03303-2](https://doi.org/10.1007/s00103-021-03303-2)  
+
+> Buda S, Tolksdorf K, Schuler E, Kuhlen R, Haas W. (2017): Establishing an ICD-10 code based SARI-surveillance in Germany – description of the system and first results from five recent influenza seasons. *BMC Public Health* 17, 612 (2017). [DOI: 10.1186/s12889-017-4515-1](https://doi.org/10.1186/s12889-017-4515-1)  
  
 #### Limitationen und Einordnung des Datensatzes  
 
-Die Daten haben zwar eine eingeschränkte geografische Auflösung, sie erlauben jedoch bundesweit robuste Aussagen zur Krankheitslast schwerer akuter Atemwegserkrankungen unterschiedlicher Altersgruppen.
+Die Daten haben zwar eine eingeschränkte geografische Auflösung, sie erlauben jedoch bundesweit robuste Aussagen zur Krankheitslast schwerer akuter Atemwegserkrankungen mit COVID-19, Influenza- oder RSV- Erkrankung für unterschiedliche Altersgruppen.
 
 ## Aufbau und Inhalt des Datensatzes  
 
 Der Datensatz enthält die wöchentlichen Werte der SARI-Hospitalisierungsinzidenz, die im Rahmen der syndromischen SARI-Surveillance im ICOSARI-Sentinel des RKI berechnet wurden. Im Datensatz enthalten sind:  
 
-- wöchentliche Hospitalisierungsinzidenz von schweren akuten respiratorischen Erkrankungen pro 100.000 Einwohner in Deutschland  
+- wöchentliche Hospitalisierungsinzidenz von schweren akuten respiratorischen Erkrankungen pro 100.000 Einwohner in Deutschland (Gesamt, COVID-19, Influenza, RSV)
 - Lizenz-Datei mit der Nutzungslizenz des Datensatzes in Deutsch und Englisch  
 - Datensatzdokumentation in deutscher Sprache  
 - Metadaten zur automatisierten Weiterverarbeitung  
@@ -75,21 +90,26 @@ Der Datensatz enthält die wöchentlichen Werte der SARI-Hospitalisierungsinzide
 
 Die Daten der Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen sind nach folgenden Merkmalen differenziert:  
 
+- Saison
 - Kalenderwoche  
-- Altersgruppe  
+- Altersgruppe 
+- SARI (Gesamt, COVID-19, Influenza, RSV)
 
 Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgewertet. Das bedeutet, dass alle bis dahin am RKI validierten Daten einfließen. Die Daten sind bundesweit wöchentlich verfügbar und können durch Nachmeldungen noch ergänzt werden.  
 
 > [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/SARI-Hospitalisierungsinzidenz.tsv)  
-> 
-### Variablen und Variablenausprägungen
 
-| Variable | Typ | Ausprägung | Beschreibung |
-| -------- | --- | ---------- | ------------ |
-| Saison   | Datum |`jjjj/jj`|Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012W40 bis 2013W39) |
-| Kalenderwoche | Datum |`jjjj-Www`|Kalnderwoche der Krankenhausneuaufnahme im ISO-8601 Format |
-| Altersgruppe| Text | `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahren: `00+`: Gesamt über alle Altersgruppen |
-| SARI_Hospitalisierungsinzidenz | Fließkommazahl | `≥0` | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen |
+
+#### Variablen und Variablenausprägungen
+
+| Variable                  | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                                          |
+|:--------------------------|:-------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
+| Saison                    | date   | `JJJJ/JJ`                                                       | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)                |
+| Kalenderwoche             | date   | `JJJJ-Www`                                                      | Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                                           |
+| Altersgruppe              | string | `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+`        | Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren |
+| SARI                      | string | `Gesamt`, `COVID-19`, `Influenza`, `RSV`                      | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere)        |
+| Hospitalisierungsinzidenz | number | `≥ 0.0`                                                       | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                          |
+
 
 #### Formatierung  
 
@@ -134,3 +154,4 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 Der Datensatz "SARI-Hospitalisierungsinzidenz" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY ](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/LIZENZ) Datei des Datensatzes.
+
