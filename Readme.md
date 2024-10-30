@@ -102,13 +102,17 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 
 #### Variablen und Variablenausprägungen
 
-| Variable                  | Typ    | Ausprägungen                                                      | Beschreibung                                                                                                                                                           |
-|:--------------------------|:-------|:------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Saison                    | date   | Format: `YYYY/YY`                                                 | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)                                                 |
-| Kalenderwoche             | date   | Format: `YYYY-Www`                                                | Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                                                                            |
-| Altersgruppe              | string | Werte: `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+`<br> | Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren                                 |
-| SARI                      | string | Werte: `Gesamt`, `COVID-19`, `Influenza`, `RSV`<br>               | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere) |
-| Hospitalisierungsinzidenz | number | Werte: ≥0<br>                                                     | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                                                    |
+| Variable                  | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                                                                           |
+|:--------------------------|:-------|:--------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Saison                    | date   | Format: `YYYY/YY`                                             | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)                                                 |
+| Kalenderwoche             | date   | Format: `YYYY-Www`                                            | Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                                                                            |
+| Altersgruppe              | string | Werte: `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren                                 |
+| SARI                      | string | Werte: `Gesamt`, `COVID-19`, `Influenza`, `RSV`               | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere) |
+| Hospitalisierungsinzidenz | number | Werte: ≥0                                                     | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                                                    |
+
+
+
+
 
 Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json`](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json).
 
