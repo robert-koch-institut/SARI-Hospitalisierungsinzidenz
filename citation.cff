@@ -11,7 +11,7 @@ abstract: >-
   zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die
   Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von
   Präventionsstrategien.
-date-released: '2024-11-07'
+date-released: '2024-11-14'
 keywords:
   - Schweres akutes respiratorisches Syndrom
   - Severe Acute Respiratory Syndrome
@@ -46,8 +46,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.14049380
-version: '2024-11-07T09:08:13+01:00'
+doi: 10.5281/zenodo.14160719
+version: '2024-11-14T09:08:13+01:00'
 authors:
   - family-names: Tolksdorf
     given-names: Kristin
