@@ -102,6 +102,12 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 
 #### Variablen und Variablenausprägungen
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARI-Hospitalisierungsinzidenz", "lang": "de"} -->
+
+Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/SARI-Hospitalisierungsinzidenz.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json) hinterlegt:
+> [frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                  | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                                                                           |
 |:--------------------------|:-------|:--------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Saison                    | date   | Format: `YYYY/YY`                                             | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)                                                 |
@@ -110,11 +116,14 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 | SARI                      | string | Werte: `Gesamt`, `COVID-19`, `Influenza`, `RSV`               | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere) |
 | Hospitalisierungsinzidenz | number | Werte: ≥0                                                     | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                                                    |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json`](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json).
+
 
 
 
