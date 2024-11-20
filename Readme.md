@@ -121,12 +121,6 @@ Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-in
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-
-
-
-
-
-
 #### Formatierung  
 
 Die Daten sind im Datensatz als tabseparierte Datei (TSV) enthalten. Der verwendete Zeichensatz der TSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab "\t".  
