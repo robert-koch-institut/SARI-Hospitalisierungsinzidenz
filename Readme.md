@@ -104,8 +104,8 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARI-Hospitalisierungsinzidenz", "lang": "de"} -->
 
-Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/SARI-Hospitalisierungsinzidenz.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json) hinterlegt:
-> [frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/frictionless_data_schema_SARI-Hospitalisierungsinzidenz.json)
+Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/SARI-Hospitalisierungsinzidenz.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/tableschema_SARI-Hospitalisierungsinzidenz.json) hinterlegt:
+> [tableschema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/tableschema_SARI-Hospitalisierungsinzidenz.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable                  | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                                                                           |
