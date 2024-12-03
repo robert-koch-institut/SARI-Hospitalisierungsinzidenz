@@ -114,7 +114,7 @@ Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-in
 | Kalenderwoche             | date   | Format: `YYYY-Www`                                            | Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                                                                            |
 | Altersgruppe              | string | Werte: `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren                                 |
 | SARI                      | string | Werte: `Gesamt`, `COVID-19`, `Influenza`, `RSV`               | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere) |
-| Hospitalisierungsinzidenz | number | Werte: ≥0                                                     | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                                                    |
+| Hospitalisierungsinzidenz | number | Werte: `≥0`                                                   | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                                                    |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
