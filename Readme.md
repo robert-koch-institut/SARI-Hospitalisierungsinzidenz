@@ -102,13 +102,23 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 
 #### Variablen und Variablenausprägungen
 
-| Variable                  | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                                          |
-|:--------------------------|:-------|:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| Saison                    | date   | `JJJJ/JJ`                                                       | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)                |
-| Kalenderwoche             | date   | `JJJJ-Www`                                                      | Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                                           |
-| Altersgruppe              | string | `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+`        | Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren |
-| SARI                      | string | `Gesamt`, `COVID-19`, `Influenza`, `RSV`                      | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere)        |
-| Hospitalisierungsinzidenz | number | `≥ 0.0`                                                       | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                          |
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARI-Hospitalisierungsinzidenz", "lang": "de"} -->
+
+Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/SARI-Hospitalisierungsinzidenz.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/tableschema_SARI-Hospitalisierungsinzidenz.json) hinterlegt:
+> [tableschema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/tableschema_SARI-Hospitalisierungsinzidenz.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                  | Typ    | Ausprägungen                                                  | Beschreibung                                                                                                                                                           |
+|:--------------------------|:-------|:--------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Saison                    | date   | Format: `YYYY/YY`                                             | Saison jeweils von Kalenderwoche 40 bis Kalenderwoche 39 des Folgejahres (z.B. Saison 2012/13 = 2012-W40 bis 2013-W39)                                                 |
+| Kalenderwoche             | date   | Format: `YYYY-Www`                                            | Kalenderwoche der Krankenhausneuaufnahme im ISO-8601 Format                                                                                                            |
+| Altersgruppe              | string | Werte: `00+`, `0-4`, `5-14`, `15-34`, `35-59`, `60-79`, `80+` | Altersgruppen in Jahresintervallen. Zusätzlich entsprechen die Gruppen `00+`:  Personen jeden Alters und `80+`:  Personen ab 80 Jahren                                 |
+| SARI                      | string | Werte: `Gesamt`, `COVID-19`, `Influenza`, `RSV`               | Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere) |
+| Hospitalisierungsinzidenz | number | Werte: `≥0`                                                   | Hospitalisierungsinzidenz schwerer akuter respiratorischer Erkrankungen (SARI) je 100.000 Einwohner                                                                    |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 #### Formatierung  

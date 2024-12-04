@@ -61,7 +61,7 @@
     {
       "name": "SARI",
       "type": "string",
-      "description": "Erkrankung auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Umfasst alle erhobenen SARI (COVID-19, Influenza, RSV)",
+      "description": "Erkrankung, auf welche sich die Hospitalisierungsinzidenz bezieht. <br>`Gesamt`: Alle erhobenen SARI-Erkrankungen (einschließlich COVID-19, Influenza, RSV und andere)",
       "constraints": {
         "enum": [
           "Gesamt",
