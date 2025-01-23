@@ -9,12 +9,12 @@ Nordufer 20
 
 [**Kristin Tolksdorf**](https://orcid.org/0000-0002-8712-6399)&sup1;, [**Luise Goerlitz**](https://orcid.org/0009-0004-3024-6797)&sup1;, [**Tamar Gvaladze**](https://orcid.org/0009-0007-4442-9633)&sup1;, [**Walter Haas**](https://orcid.org/0000-0003-3413-1431)&sup1; und [**Silke Buda**](https://orcid.org/0000-0003-3448-3357)&sup1;  
 
-&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 36](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG36/FG36_node.html)  
+&emsp;&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 36](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG36/FG36_node.html)  
   
 ---  
 	
 **Zitieren**   
-Tolksdorf K, Goerlitz L, Gvaladze T, Haas W und Buda S (**2024**): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:[10.5281/zenodo.14670657](https://doi.org/10.5281/zenodo.14670657)  
+Tolksdorf, K., Goerlitz, L., Gvaladze, T., Haas, W., & Buda, S. (2025). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14723466](https://doi.org/10.5281/zenodo.14723466)  
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
