@@ -27,34 +27,35 @@
           "80+"
         ]
       },
-	  "valueDefinitions": [
+      "categoriesOrdered": true,
+      "categories": [
         {
           "value": "00+",
-          "definition": "Personen jeden Alters"
+          "label": "Personen jeden Alters"
         },
         {
           "value": "0-4",
-          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 0 und 5 Jahre alt sind"
+          "label": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 0 und 5 Jahre alt sind"
         },
         {
           "value": "5-14",
-          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 5 und 15 Jahre alt sind"
+          "label": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 5 und 15 Jahre alt sind"
         },
         {
           "value": "15-34",
-          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 15 und 35 Jahre alt sind"
+          "label": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 15 und 35 Jahre alt sind"
         },
         {
           "value": "35-59",
-          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 35 und 60 Jahre alt sind"
+          "label": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 35 und 60 Jahre alt sind"
         },
         {
           "value": "60-79",
-          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 60 und 80 Jahre alt sind"
+          "label": "Gruppe der Personen die zum Zeitpunkt der Erhebung zwischen 60 und 80 Jahre alt sind"
         },
         {
           "value": "80+",
-          "definition": "Gruppe der Personen die zum Zeitpunkt der Erhebung 80 Jahre oder älter sind"
+          "label": "Gruppe der Personen die zum Zeitpunkt der Erhebung 80 Jahre oder älter sind"
         }
       ]
     },
@@ -70,22 +71,22 @@
           "RSV"
         ]
       },
-	  "valueDefinitions": [
+	  "categories": [
         {
           "value": "Gesamt",
-          "definition": "Umfasst alle erhobenen SARI (einschließlich COVID-19, Influenza, RSV und andere)"
+          "label": "Umfasst alle erhobenen SARI (einschließlich COVID-19, Influenza, RSV und andere)"
         },
         {
           "value": "COVID-19",
-          "definition": "ICD-10-Diagnosecode für eine COVID-19-Erkrankung (U07.1) in einer der Nebendiagnosen"
+          "label": "ICD-10-Diagnosecode für eine COVID-19-Erkrankung (U07.1) in einer der Nebendiagnosen"
         },
         {
           "value": "Influenza",
-          "definition": "ICD-10-Diagnosecode für eine Influenza-Erkrankung (J10) in der Haupt- oder einer der Nebendiagnosen"
+          "label": "ICD-10-Diagnosecode für eine Influenza-Erkrankung (J10) in der Haupt- oder einer der Nebendiagnosen"
         },
         {
           "value": "RSV",
-          "definition": "ICD-10-Diagnosecode für eine RSV-Erkrankung (J12.1, J20.5, J21.0) in der Haupt- oder einer der Nebendiagnosen"
+          "label": "ICD-10-Diagnosecode für eine RSV-Erkrankung (J12.1, J20.5, J21.0) in der Haupt- oder einer der Nebendiagnosen"
         }
 		
       ]
