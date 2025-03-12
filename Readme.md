@@ -9,7 +9,7 @@ Nordufer 20
 
 [**Kristin Tolksdorf**](https://orcid.org/0000-0002-8712-6399)&sup1;, [**Luise Goerlitz**](https://orcid.org/0009-0004-3024-6797)&sup1;, [**Tamar Gvaladze**](https://orcid.org/0009-0007-4442-9633)&sup1;, [**Walter Haas**](https://orcid.org/0000-0003-3413-1431)&sup1; und [**Silke Buda**](https://orcid.org/0000-0003-3448-3357)&sup1;  
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 36](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG36/FG36_node.html)  
+&emsp;&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 36](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html)  
   
 ---  
 	
@@ -26,9 +26,9 @@ Zudem werden SARI-Fälle pro 100.000 Einwohner, bei denen zusätzlich zur SARI e
 
 ### Administrative und organisatorische Angaben  
 
-Die zugrundeliegenden Daten werden im Rahmen einer wissenschaftlichen Kooperation vom Datenzentrum der HELIOS Kliniken GmbH dem Robert Koch-Institut (RKI) zur Verfügung gestellt. Die Konzeptionierung der Datennutzung, das Datenmanagement, die Validierung und Analyse der Daten im Rahmen der SARI-Surveillance sowie die fachliche Bewertung der Ergebnisse erfolgen im [Fachgebiet 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG36/FG36_node.html) des RKI.  
+Die zugrundeliegenden Daten werden im Rahmen einer wissenschaftlichen Kooperation vom Datenzentrum der HELIOS Kliniken GmbH dem Robert Koch-Institut (RKI) zur Verfügung gestellt. Die Konzeptionierung der Datennutzung, das Datenmanagement, die Validierung und Analyse der Daten im Rahmen der SARI-Surveillance sowie die fachliche Bewertung der Ergebnisse erfolgen im [Fachgebiet 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html) des RKI.  
 
-Die Veröffentlichung der Analyseergebnisse, die Kuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das [Fachgebiet MF 4 | Fach- und Forschungsdatenmanagement]([https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html]()). Fragen zum Meta-Datenmanagement können an das Open Data-Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:OpenData@rki.de)).  
+Die Veröffentlichung der Analyseergebnisse, die Kuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das [Fachgebiet MF 4 | Fach- und Forschungsdatenmanagement]([https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html]()). Fragen zum Meta-Datenmanagement können an das Open Data-Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:OpenData@rki.de)).  
 
 ### Entstehungskontext  
 
