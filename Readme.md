@@ -15,7 +15,7 @@ Nordufer 20
 	
 **Zitieren**   
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Tolksdorf, K., Goerlitz, L., Gvaladze, T., Haas, W., & Buda, S. (2025). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15094185](https://doi.org/10.5281/zenodo.15094185)
+Tolksdorf, K., Goerlitz, L., Gvaladze, T., Haas, W., & Buda, S. (2025). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15129216](https://doi.org/10.5281/zenodo.15129216)
 <!-- CITATION_END -->
 
 
