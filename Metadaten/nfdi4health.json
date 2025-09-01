@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.15187295",
+        "identifier": "10.5281/zenodo.16978221",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -38,76 +38,76 @@
     "keywords": [
       {
         "label": "Schweres akutes respiratorisches Syndrom",
-        "code": "D045169"
+        "code": "http://id.nlm.nih.gov/mesh/D045169"
       },
       {
         "label": "Severe Acute Respiratory Syndrome",
-        "code": "D045169"
+        "code": "http://id.nlm.nih.gov/mesh/D045169"
       },
       {
         "label": "SARI"
       },
       {
         "label": "Patient Admission",
-        "code": "D010343"
+        "code": "http://id.nlm.nih.gov/mesh/D010343"
       },
       {
         "label": "Patientenaufnahme",
-        "code": "D010343"
+        "code": "http://id.nlm.nih.gov/mesh/D010343"
       },
       {
         "label": "Respiratory Tract Infections",
-        "code": "D012141"
+        "code": "http://id.nlm.nih.gov/mesh/D012141"
       },
       {
         "label": "Atemwegsinfektionen",
-        "code": "D012141"
+        "code": "http://id.nlm.nih.gov/mesh/D012141"
       },
       {
         "label": "Sekundäre Versorgung",
-        "code": "D063127"
+        "code": "http://id.nlm.nih.gov/mesh/D063127"
       },
       {
         "label": "Secondary Care",
-        "code": "D063127"
+        "code": "http://id.nlm.nih.gov/mesh/D063127"
       },
       {
         "label": "Syndromische Surveillance"
       },
       {
         "label": "Sentinel Surveillance",
-        "code": "D018571"
+        "code": "http://id.nlm.nih.gov/mesh/D018571"
       },
       {
         "label": "Sentinel-Überwachung",
-        "code": "D018571"
+        "code": "http://id.nlm.nih.gov/mesh/D018571"
       },
       {
         "label": "Hospitalisierungsinzidenz"
       },
       {
         "label": "Hospitalization",
-        "code": "D006760"
+        "code": "http://id.nlm.nih.gov/mesh/D006760"
       },
       {
         "label": "Hospitalisierung",
-        "code": "D006760"
+        "code": "http://id.nlm.nih.gov/mesh/D006760"
       },
       {
         "label": "Incidence",
-        "code": "D015994"
+        "code": "http://id.nlm.nih.gov/mesh/D015994"
       },
       {
         "label": "Inzidenz",
-        "code": "D015994"
+        "code": "http://id.nlm.nih.gov/mesh/D015994"
       },
       {
         "label": "Hospitals",
-        "code": "D006761"
+        "code": "http://id.nlm.nih.gov/mesh/D006761"
       },
       {
         "label": "Krankenhäuser",
-        "code": "D006761"
+        "code": "http://id.nlm.nih.gov/mesh/D006761"
       },
       {
         "label": "ICOSARI"
@@ -160,14 +160,20 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-04-10"
+      "version": "2025-08-28"
     },
     "webpage": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
     "contributors": [
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -186,7 +192,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -205,7 +217,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -224,7 +242,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -243,7 +267,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
