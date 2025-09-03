@@ -1,22 +1,45 @@
-Datensatzdokumentation  
-# SARI-Hospitalisierungsinzidenz  
- 
-[Robert Koch-Institut](https://rki.de) | RKI  
-Nordufer 20  
-13353 Berlin  
+<!-- HEADER_START: {"lang": "de"} -->
+
+
+Dokumentation  
+# SARI-Hospitalisierungsinzidenz
+
+<br> 
+<br> 
+<br> 
+
+[**Kristin Tolksdorf**](https://orcid.org/0000-0002-8712-6399)&sup1;, [**Luise Goerlitz**](https://orcid.org/0009-0004-3024-6797)&sup1;, **Doreen Staat**&sup1;, [**Tamar Gvaladze**](https://orcid.org/0009-0007-4442-9633)&sup1;, [**Walter Haas**](https://orcid.org/0000-0003-3413-1431)&sup1;, & [**Silke Buda**](https://orcid.org/0000-0003-3448-3357)&sup1;
+
+<br> 
+
+
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 36](https://www.rki.de/fg36)
+
+<br> 
+
+**Zitieren**  
+Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2025). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16978221](https://doi.org/10.5281/zenodo.16978221)
 
 <br>
 
-[**Kristin Tolksdorf**](https://orcid.org/0000-0002-8712-6399)&sup1;, [**Luise Goerlitz**](https://orcid.org/0009-0004-3024-6797)&sup1;, [**Tamar Gvaladze**](https://orcid.org/0009-0007-4442-9633)&sup1;, [**Walter Haas**](https://orcid.org/0000-0003-3413-1431)&sup1; und [**Silke Buda**](https://orcid.org/0000-0003-3448-3357)&sup1;  
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 36](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html)  
-  
----  
-	
-**Zitieren**   
-<!-- CITATION_START: {"citation_style": "apa"} -->
-Tolksdorf, K., Goerlitz, L., Gvaladze, T., Haas, W., & Buda, S. (2025). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16978221](https://doi.org/10.5281/zenodo.16978221)
-<!-- CITATION_END -->
+**Zusammenfassung**    
+Im Datensatz "SARI-Hospitalisierungsinzidenz" des Robert Koch-Instituts werden die wöchentlichen Inzidenzen schwerer akuter respiratorischer Infektionen (SARI) auf Bundesebene in Deutschland bereitgestellt. Die Daten stammen aus der syndromischen Krankenhaussurveillance ICOSARI, die auf ICD-10-Diagnosecodes aus etwa 70 Sentinelkliniken basiert. Der Datensatz umfasst Hospitalisierungsinzidenzen pro 100.000 Einwohner, aufgeschlüsselt nach Altersgruppen, Saison und Kalenderwoche. Neben der Gesamtheit aller SARI-Fälle werden auch Fälle mit zusätzlicher COVID-19-, Influenza- oder RSV-Diagnose separat erfasst. Die Surveillance liefert entscheidende Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische Maßnahmen.
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
+
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
@@ -26,9 +49,9 @@ Zudem werden SARI-Fälle pro 100.000 Einwohner, bei denen zusätzlich zur SARI e
 
 ### Administrative und organisatorische Angaben  
 
-Die zugrundeliegenden Daten werden im Rahmen einer wissenschaftlichen Kooperation vom Datenzentrum der HELIOS Kliniken GmbH dem Robert Koch-Institut (RKI) zur Verfügung gestellt. Die Konzeptionierung der Datennutzung, das Datenmanagement, die Validierung und Analyse der Daten im Rahmen der SARI-Surveillance sowie die fachliche Bewertung der Ergebnisse erfolgen im [Fachgebiet 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html) des RKI.  
+Die zugrundeliegenden Daten werden im Rahmen einer wissenschaftlichen Kooperation vom Datenzentrum der HELIOS Kliniken GmbH dem Robert Koch-Institut (RKI) zur Verfügung gestellt. Die Konzeptionierung der Datennutzung, das Datenmanagement, die Validierung und Analyse der Daten im Rahmen der SARI-Surveillance sowie die fachliche Bewertung der Ergebnisse erfolgen im [Fachgebiet 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/fg36) des RKI.  
 
-Die Veröffentlichung der Analyseergebnisse, die Kuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das [Fachgebiet MF 4 | Fach- und Forschungsdatenmanagement]([https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html]()). Fragen zum Meta-Datenmanagement können an das Open Data-Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:OpenData@rki.de)).  
+Die Veröffentlichung der Analyseergebnisse, die Kuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das [Fachgebiet MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Meta-Datenmanagement können an das Open Data-Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:OpenData@rki.de)).  
 
 ### Entstehungskontext  
 
