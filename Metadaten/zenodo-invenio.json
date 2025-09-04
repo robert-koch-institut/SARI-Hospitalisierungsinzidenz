@@ -1,10 +1,10 @@
 {
   "title": "SARI-Hospitalisierungsinzidenz",
-  "description": "<p>Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.</p>\n",
+  "description": "<p>Im Datensatz &quot;SARI-Hospitalisierungsinzidenz&quot; des Robert Koch-Instituts werden die wöchentlichen Inzidenzen schwerer akuter respiratorischer Infektionen (SARI) auf Bundesebene in Deutschland bereitgestellt. Die Daten stammen aus der syndromischen Krankenhaussurveillance ICOSARI, die auf ICD-10-Diagnosecodes aus etwa 70 Sentinelkliniken basiert. Der Datensatz umfasst Hospitalisierungsinzidenzen pro 100.000 Einwohner, aufgeschlüsselt nach Altersgruppen, Saison und Kalenderwoche. Neben der Gesamtheit aller SARI-Fälle werden auch Fälle mit zusätzlicher COVID-19-, Influenza- oder RSV-Diagnose separat erfasst. Die Surveillance liefert entscheidende Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische Maßnahmen.</p>\n",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2025-08-28",
+  "publication_date": "2025-09-04",
   "creators": [
     {
       "person_or_org": {
@@ -36,6 +36,19 @@
             "identifier": "0009-0004-3024-6797"
           }
         ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ]
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Staat",
+        "given_name": "Doreen"
       },
       "affiliations": [
         {
@@ -104,10 +117,10 @@
   ],
   "contributors": [],
   "publisher": "Zenodo",
-  "version": "2025-08-28",
+  "version": "2025-09-04",
   "dates": [
     {
-      "date": "2025-08-28T09:08:12+02:00",
+      "date": "2025-09-04T09:08:10+02:00",
       "type": {
         "id": "created"
       },
