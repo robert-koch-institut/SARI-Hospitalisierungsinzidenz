@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.18253972",
+        "identifier": "10.5281/zenodo.18335047",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -160,7 +160,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-01-15"
+      "version": "2026-01-22"
     },
     "webpage": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
     "contributors": [
