@@ -76,6 +76,7 @@ Zur Einschätzung der Krankheitslast schwerer symptomatischer Erkrankungen im st
 Hierbei werden Patientinnen und Patienten pro Kalenderwoche der Krankenhausaufnahme erfasst, die einen ICD-10-Code für SARI ([ICD-10-Codes J09 bis J22](https://klassifikationen.bfarm.de/icd-10-gm/kode-suche/htmlgm2024/chapter-x.htm)) in der Hauptdiagnose erhalten.  
 
 Zudem werden drei Untergruppen der SARI-Hospitalisierungsinzidenz (Gesamt) dargestellt: 
+
 - Inzidenz von SARI-Fällen mit einem ICD-10-Diagnosecode für eine **COVID-19-Erkrankung** (U07.1) in einer der Nebendiagnosen (COVID-SARI)
 - Inzidenz von SARI-Fällen mit einem ICD-10-Diagnosecode für eine **Influenza-Erkrankung** (J10) in der Haupt- oder einer der Nebendiagnosen (Influenza-SARI)
 - Inzidenz von SARI-Fällen mit einem ICD-10-Diagnosecode für eine **RSV-Erkrankung** (J12.1, J20.5, J21.0) in der Haupt- oder einer der Nebendiagnosen (RSV-SARI)
@@ -148,10 +149,10 @@ Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-in
 
 #### Formatierung  
 
-Die Daten sind im Datensatz als tabseparierte Datei (TSV) enthalten. Der verwendete Zeichensatz der TSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab "\t".  
+Die Daten sind im Datensatz als Tab-separierte Datei (TSV) enthalten. Der verwendete Zeichensatz der TSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab `\t`.  
 
 - Zeichensatz: UTF-8  
-- TSV-Trennzeichen: Tab "\t"  
+- TSV-Trennzeichen: Tab `\t`  
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
