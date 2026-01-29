@@ -2,7 +2,7 @@ cff-version: 1.2.0
 type: dataset
 title: SARI-Hospitalisierungsinzidenz
 abstract: "Im Datensatz &quot;SARI-Hospitalisierungsinzidenz&quot;\_des Robert Koch-Instituts werden die wöchentlichen Inzidenzen schwerer akuter respiratorischer Infektionen (SARI) auf Bundesebene in Deutschland bereitgestellt. Die Daten stammen aus der syndromischen Krankenhaussurveillance ICOSARI, die auf ICD-10-Diagnosecodes aus etwa 70 Sentinelkliniken basiert. Der Datensatz umfasst Hospitalisierungsinzidenzen pro 100.000 Einwohner, aufgeschlüsselt nach Altersgruppen, Saison und Kalenderwoche. Neben der Gesamtheit aller SARI-Fälle werden auch Fälle mit zusätzlicher COVID-19-, Influenza- oder RSV-Diagnose separat erfasst. Die Surveillance liefert entscheidende Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische Maßnahmen."
-date-released: '2026-01-22'
+date-released: '2026-01-29'
 keywords:
   - Schweres akutes respiratorisches Syndrom
   - Severe Acute Respiratory Syndrome
@@ -37,8 +37,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.18335047
-version: '2026-01-22T09:08:12+01:00'
+doi: 10.5281/zenodo.18410960
+version: '2026-01-29T09:08:12+01:00'
 authors:
   - family-names: Tolksdorf
     given-names: Kristin
