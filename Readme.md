@@ -19,7 +19,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18491860](https://doi.org/10.5281/zenodo.18491860)
+Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18618282](https://doi.org/10.5281/zenodo.18618282)
 
 <br>
 
