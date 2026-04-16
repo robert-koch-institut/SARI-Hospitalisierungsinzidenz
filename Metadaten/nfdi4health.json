@@ -20,15 +20,15 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19479786",
+        "identifier": "10.5281/zenodo.19603677",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
       },
       {
         "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz",
-        "relationType": "A references B",
         "typeGeneral": "Dataset",
+        "relationType": "A references B",
         "scheme": "URL"
       }
     ],
@@ -116,10 +116,12 @@
         "label": "Pandemic reparedness"
       },
       {
-        "label": "Deutschland"
+        "label": "Deutschland",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
-        "label": "Germany"
+        "label": "Germany",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
         "label": "RKI"
@@ -132,19 +134,19 @@
       },
       {
         "label": "Gesundheitsberichterstattung",
-        "code": "info:ddc/22/de//614.42"
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
         "label": "Epidemiologie",
-        "code": "info:ddc/22/de//614.4"
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
       },
       {
         "label": "Public health surveillance",
-        "code": "info:ddc/22/eng//614.42"
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
         "label": "Epidemiology",
-        "code": "info:ddc/22/eng//614.4"
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
       }
     ],
     "languages": [
@@ -160,11 +162,12 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-09"
+      "version": "2026-04-16"
     },
-    "webpage": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
+    "webpage": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz",
     "contributors": [
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -176,7 +179,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Creator/Author",
           "givenName": "Kristin",
@@ -190,6 +192,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -201,7 +204,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Creator/Author",
           "givenName": "Luise",
@@ -215,6 +217,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -226,7 +229,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Creator/Author",
           "givenName": "Doreen",
@@ -234,6 +236,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -245,7 +248,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Creator/Author",
           "givenName": "Tamar",
@@ -259,6 +261,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -270,7 +273,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Creator/Author",
           "givenName": "Walter",
@@ -284,6 +286,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -295,7 +298,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Creator/Author",
           "givenName": "Silke",

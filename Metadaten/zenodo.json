@@ -1,6 +1,15 @@
 {
   "title": "SARI-Hospitalisierungsinzidenz",
-  "description": "<p>Im Datensatz &quot;SARI-Hospitalisierungsinzidenz&quot; des Robert Koch-Instituts werden die wöchentlichen Inzidenzen schwerer akuter respiratorischer Infektionen (SARI) auf Bundesebene in Deutschland bereitgestellt. Die Daten stammen aus der syndromischen Krankenhaussurveillance ICOSARI, die auf ICD-10-Diagnosecodes aus etwa 70 Sentinelkliniken basiert. Der Datensatz umfasst Hospitalisierungsinzidenzen pro 100.000 Einwohner, aufgeschlüsselt nach Altersgruppen, Saison und Kalenderwoche. Neben der Gesamtheit aller SARI-Fälle werden auch Fälle mit zusätzlicher COVID-19-, Influenza- oder RSV-Diagnose separat erfasst. Die Surveillance liefert entscheidende Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische Maßnahmen.</p>\n",
+  "description": "<p>Im Datensatz \"SARI-Hospitalisierungsinzidenz\" des Robert Koch-Instituts werden die wöchentlichen Inzidenzen schwerer akuter respiratorischer Infektionen (SARI) auf Bundesebene in Deutschland bereitgestellt. Die Daten stammen aus der syndromischen Krankenhaussurveillance ICOSARI, die auf ICD-10-Diagnosecodes aus etwa 70 Sentinelkliniken basiert. Der Datensatz umfasst Hospitalisierungsinzidenzen pro 100.000 Einwohner, aufgeschlüsselt nach Altersgruppen, Saison und Kalenderwoche. Neben der Gesamtheit aller SARI-Fälle werden auch Fälle mit zusätzlicher COVID-19-, Influenza- oder RSV-Diagnose separat erfasst. Die Surveillance liefert entscheidende Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische Maßnahmen.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
   "creators": [
     {
       "name": "Tolksdorf, Kristin",
@@ -59,55 +68,33 @@
     "Germany",
     "RKI",
     "Open Data",
-    "Offene Daten"
+    "Offene Daten",
+    "Gesundheitsberichterstattung",
+    "Epidemiologie",
+    "Public health surveillance",
+    "Epidemiology"
   ],
-  "publication_date": "2026-04-09",
-  "version": "2026-04-09",
-  "upload_type": "dataset",
-  "access_right": "open",
-  "license": "CC-BY-4.0",
-  "language": "deu",
-  "communities": [
+  "subjects": [],
+  "publication_date": "2026-04-16",
+  "version": "2026-04-16",
+  "related_identifiers": [
     {
-      "identifier": "robertkochinstitut"
-    }
-  ],
-  "subjects": [
-    {
-      "term": "Gesundheitsberichterstattung",
-      "identifier": "info:ddc/22/de//614.42"
+      "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
     },
     {
-      "term": "Epidemiologie",
-      "identifier": "info:ddc/22/de//614.4"
-    },
-    {
-      "term": "Public health surveillance",
-      "identifier": "info:ddc/22/eng//614.42"
-    },
-    {
-      "term": "Epidemiology",
-      "identifier": "info:ddc/22/eng//614.4"
+      "identifier": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz",
+      "relation": "isDescribedBy",
+      "resource_type": "other"
     }
   ],
   "dates": [
     {
-      "start": "2026-04-09T09:08:17+02:00",
-      "end": "2026-04-09T09:08:17+02:00",
+      "start": "2026-04-16T09:08:19+02:00",
+      "end": "2026-04-16T09:08:19+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
-    }
-  ],
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "identifier": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz",
-      "resource_type": "dataset"
-    },
-    {
-      "relation": "isDescribedBy",
-      "identifier": "https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz/",
-      "resource_type": "other"
     }
   ]
 }
