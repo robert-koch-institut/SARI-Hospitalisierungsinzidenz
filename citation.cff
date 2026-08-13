@@ -12,7 +12,7 @@ abstract: Im Datensatz "SARI-Hospitalisierungsinzidenz" des Robert Koch-Institu
   Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient
   als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische
   Maßnahmen.
-date-released: '2026-08-06'
+date-released: '2026-08-13'
 keywords:
   - Schweres akutes respiratorisches Syndrom
   - Severe Acute Respiratory Syndrome
@@ -47,8 +47,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARI-Hospitalisierungsinzidenz
 license: CC-BY-4.0
-doi: 10.5281/zenodo.21819463
-version: '2026-08-06T09:08:32+02:00'
+doi: 10.5281/zenodo.21914230
+version: '2026-08-13T09:11:23+02:00'
 authors:
   - family-names: Tolksdorf
     given-names: Kristin
