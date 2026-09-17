@@ -21,7 +21,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22686153](https://doi.org/10.5281/zenodo.22686153)
+Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22807278](https://doi.org/10.5281/zenodo.22807278)
 <!-- CITATION_END -->
 
 
@@ -136,8 +136,6 @@ Die Daten werden dienstags im Rahmen der wöchentlichen Berichterstattung ausgew
 
 Die Datei [SARI-Hospitalisierungsinzidenz.tsv](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/SARI-Hospitalisierungsinzidenz.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/tableschema_SARI-Hospitalisierungsinzidenz.json) hinterlegt:
 
-> [tableschema_SARI-Hospitalisierungsinzidenz.json](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/Metadaten/schemas/tableschema_SARI-Hospitalisierungsinzidenz.json)
-
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable                  | Typ    | Ausprägungen                                                     | Beschreibung                                                                                                                                                           |
 |:--------------------------|:-------|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -216,5 +214,5 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "SARI-Hospitalisierungsinzidenz" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/LIZENZ) Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede Person das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz/blob/main/LIZENZ) Datei des Datensatzes.  
 <!-- FOOTER_END -->
